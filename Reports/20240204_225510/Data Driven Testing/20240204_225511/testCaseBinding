@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/TC_OrangeHRM_Login_001","testCaseId":"Test Cases/TC_OrangeHRM_Login_001","iterationVariableName":"","bindedValues":{"password":"\u0027admin123\u0027","username":"\u0027Admin\u0027"}}
+{"testCaseName":"Test Cases/TC_OrangeHRM_Login_001","testCaseId":"Test Cases/TC_OrangeHRM_Login_001","iterationVariableName":"","bindedValues":{"password":"\u0027ajay123\u0027","username":"\u0027Ajay\u0027"}}
+{"testCaseName":"Test Cases/TC_OrangeHRM_Login_001","testCaseId":"Test Cases/TC_OrangeHRM_Login_001","iterationVariableName":"","bindedValues":{"password":"\u0027anil123\u0027","username":"\u0027Anil\u0027"}}

@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Testing,Chrome 121.0.0.0,data driven testing,,04-02-2024 22:55:16,04-02-2024 22:56:38,1m - 22.384s,PASSED
+,,,,,,,
+Test Cases/TC_OrangeHRM_Login_001,Chrome 121.0.0.0,,Login to OrangeHRM,04-02-2024 22:55:16,04-02-2024 22:55:36,19.920s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,04-02-2024 22:55:17,04-02-2024 22:55:18,1.913s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,04-02-2024 22:55:18,04-02-2024 22:55:29,10.071s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,04-02-2024 22:55:29,04-02-2024 22:55:29,0.152s,PASSED
+"setText(findTestObject(""TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username"", [""variable"":username]), username)",Chrome 121.0.0.0,,,04-02-2024 22:55:29,04-02-2024 22:55:31,2.354s,PASSED
+"setText(findTestObject(""TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password"", [""variable"":password]), password)",Chrome 121.0.0.0,,,04-02-2024 22:55:31,04-02-2024 22:55:32,0.771s,PASSED
+"click(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login""))",Chrome 121.0.0.0,,,04-02-2024 22:55:32,04-02-2024 22:55:32,0.421s,PASSED
+"click(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard""))",Chrome 121.0.0.0,,,04-02-2024 22:55:32,04-02-2024 22:55:35,3.137s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard""), ""Dashboard"")",Chrome 121.0.0.0,,,04-02-2024 22:55:35,04-02-2024 22:55:36,0.365s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,04-02-2024 22:55:36,04-02-2024 22:55:36,0.327s,PASSED
+,,,,,,,
+Test Cases/TC_OrangeHRM_Login_001,Chrome 121.0.0.0,,Login to OrangeHRM,04-02-2024 22:55:36,04-02-2024 22:55:52,16.169s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,04-02-2024 22:55:36,04-02-2024 22:55:37,0.812s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,04-02-2024 22:55:37,04-02-2024 22:55:46,8.884s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,04-02-2024 22:55:46,04-02-2024 22:55:46,0.136s,PASSED
+"setText(findTestObject(""TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username"", [""variable"":username]), username)",Chrome 121.0.0.0,,,04-02-2024 22:55:46,04-02-2024 22:55:48,1.478s,PASSED
+"setText(findTestObject(""TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password"", [""variable"":password]), password)",Chrome 121.0.0.0,,,04-02-2024 22:55:48,04-02-2024 22:55:48,0.718s,PASSED
+"click(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login""))",Chrome 121.0.0.0,,,04-02-2024 22:55:48,04-02-2024 22:55:49,0.367s,PASSED
+"click(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard""))",Chrome 121.0.0.0,,,04-02-2024 22:55:49,04-02-2024 22:55:52,3.206s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard""), ""Dashboard"")",Chrome 121.0.0.0,,,04-02-2024 22:55:52,04-02-2024 22:55:52,0.336s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,04-02-2024 22:55:52,04-02-2024 22:55:52,0.150s,PASSED
+,,,,,,,
+Test Cases/TC_OrangeHRM_Login_001,Chrome 121.0.0.0,,Login to OrangeHRM,04-02-2024 22:55:52,04-02-2024 22:56:38,45.910s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,04-02-2024 22:55:52,04-02-2024 22:55:53,0.800s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,04-02-2024 22:55:53,04-02-2024 22:56:31,37.319s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,04-02-2024 22:56:31,04-02-2024 22:56:31,0.132s,PASSED
+"setText(findTestObject(""TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username"", [""variable"":username]), username)",Chrome 121.0.0.0,,,04-02-2024 22:56:31,04-02-2024 22:56:33,2.420s,PASSED
+"setText(findTestObject(""TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password"", [""variable"":password]), password)",Chrome 121.0.0.0,,,04-02-2024 22:56:33,04-02-2024 22:56:34,0.710s,PASSED
+"click(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login""))",Chrome 121.0.0.0,,,04-02-2024 22:56:34,04-02-2024 22:56:34,0.361s,PASSED
+"click(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard""))",Chrome 121.0.0.0,,,04-02-2024 22:56:34,04-02-2024 22:56:38,3.670s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard""), ""Dashboard"")",Chrome 121.0.0.0,,,04-02-2024 22:56:38,04-02-2024 22:56:38,0.310s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,04-02-2024 22:56:38,04-02-2024 22:56:38,0.141s,PASSED
