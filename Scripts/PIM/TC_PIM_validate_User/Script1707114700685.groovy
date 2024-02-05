@@ -19,13 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(url)
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username', [('variable') : username]), username)
+WebUI.setText(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/input_username (1)'), 'Admin')
 
-WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password', [('variable') : password]), password)
+WebUI.setText(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/input_password (1)'), 'admin123')
 
-WebUI.click(findTestObject('Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/button_Login (1)'))
+
+WebUI.click(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/a_PIM'))
+
+WebUI.setText(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/input'), 'Sai')
+
+WebUI.click(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/button_Search'))
+
+WebUI.click(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/span_(1) Record Found'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/span_(1) Record Found'), 
+    '(1) Record Found')
+
+WebUI.closeBrowser()
 
