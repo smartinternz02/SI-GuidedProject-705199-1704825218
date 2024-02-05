@@ -15,7 +15,7 @@
       <guid>19919acc-c5c4-4ba6-ae90-de78bab863cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_OrangeHRM_Login_001</testCaseId>
+      <testCaseId>Test Cases/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2cf7298e-084a-445b-bb3e-d2e65fc05ecb</id>
@@ -30,19 +30,19 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b014138b-b1d5-46eb-9deb-089bb4b03adc</variableId>
+         <variableId>aa9fceba-b134-40ab-b2e5-c96d5fb7b7f2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>2cf7298e-084a-445b-bb3e-d2e65fc05ecb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>f6249a3d-aab6-43fc-9a84-c0567c5f9a2d</variableId>
+         <variableId>0bab89b0-95de-4b4c-842a-39e31c9ef905</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>2cf7298e-084a-445b-bb3e-d2e65fc05ecb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>6190699e-57ad-48e2-a9a0-42539bc05a00</variableId>
+         <variableId>81e2935d-c8f8-4e2c-a916-5a58b33c5f79</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Driven Testing" time="39.748" tests="3" failures="0" errors="0">
+   <testsuite name="Data Driven Testing" tests="3" failures="0" errors="0" time="39.748" skipped="0" timestamp="05-02-2024T10:59:59" hostname="AJAY - DESKTOP-90P6B7K" id="Test Suites/Data Driven Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AJAY\\git\\SI-GuidedProject-705199-1704825218\\Reports\\20240205_105954\\Data Driven Testing\\20240205_105954"/>
+         <property name="logFiles" value="C:\\Users\\AJAY\\git\\SI-GuidedProject-705199-1704825218\\Reports\\20240205_105954\\Data Driven Testing\\20240205_105954\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AJAY - DESKTOP-90P6B7K"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.118"/>
+         <property name="sessionId" value="da0dd2e9d7bc2d6f0e4b581dcfe27bca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="15.546" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[05-02-2024T10:59:59 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+05-02-2024T10:59:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2024T11:00:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2024T11:00:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2024T11:00:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2024T11:00:01 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+05-02-2024T11:00:11 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+05-02-2024T11:00:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-02-2024T11:00:11 - [MESSAGE][PASSED] - Current window maximized
+
+05-02-2024T11:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username", ["variable":username]), username): Text 'Admin' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username'
+
+05-02-2024T11:00:13 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username'
+
+05-02-2024T11:00:13 - [TEST_STEP][PASSED] - setText(findTestObject("TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password", ["variable":password]), password): Text 'admin123' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password'
+
+05-02-2024T11:00:14 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password'
+
+05-02-2024T11:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login")): Object: 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login' is clicked on
+
+05-02-2024T11:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="14.005" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[05-02-2024T11:00:15 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+05-02-2024T11:00:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2024T11:00:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-02-2024T11:00:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2024T11:00:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2024T11:00:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2024T11:00:17 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+05-02-2024T11:00:26 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+05-02-2024T11:00:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-02-2024T11:00:26 - [MESSAGE][PASSED] - Current window maximized
+
+05-02-2024T11:00:26 - [TEST_STEP][PASSED] - setText(findTestObject("TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username", ["variable":username]), username): Text 'Ajay' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username'
+
+05-02-2024T11:00:28 - [MESSAGE][PASSED] - Text 'Ajay' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username'
+
+05-02-2024T11:00:28 - [TEST_STEP][PASSED] - setText(findTestObject("TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password", ["variable":password]), password): Text 'ajay123' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password'
+
+05-02-2024T11:00:28 - [MESSAGE][PASSED] - Text 'ajay123' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password'
+
+05-02-2024T11:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login")): Object: 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login' is clicked on
+
+05-02-2024T11:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="9.774" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[05-02-2024T11:00:29 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+05-02-2024T11:00:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2024T11:00:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-02-2024T11:00:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2024T11:00:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2024T11:00:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2024T11:00:30 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+05-02-2024T11:00:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+05-02-2024T11:00:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-02-2024T11:00:36 - [MESSAGE][PASSED] - Current window maximized
+
+05-02-2024T11:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username", ["variable":username]), username): Text 'Anil' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username'
+
+05-02-2024T11:00:37 - [MESSAGE][PASSED] - Text 'Anil' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username'
+
+05-02-2024T11:00:37 - [TEST_STEP][PASSED] - setText(findTestObject("TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password", ["variable":password]), password): Text 'anil123' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password'
+
+05-02-2024T11:00:38 - [MESSAGE][PASSED] - Text 'anil123' is set on object 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password'
+
+05-02-2024T11:00:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login")): Object: 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login' is clicked on
+
+05-02-2024T11:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-02-2024T10:59:59 - [TEST_SUITE][PASSED] - Data Driven Testing: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
