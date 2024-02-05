@@ -29,3 +29,5 @@ WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_passwo
 
 WebUI.click(findTestObject('Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login'))
 
+WebUI.closeBrowser()
+
