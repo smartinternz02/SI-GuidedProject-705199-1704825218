@@ -17,31 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login'), [('url') : 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+        , ('username') : 'Admin', ('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(url)
+WebUI.click(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/a_PIM'))
 
-WebUI.maximizeWindow()
+WebUI.delay(1)
 
-String url = WebUI.getUrl()
+WebUI.setText(findTestObject('PIM/pim1/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'), '0461')
 
-System.out.println('The url is : ' + url)
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username', [('variable') : username]), username)
+WebUI.click(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/button_Search'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password', [('variable') : password]), password)
+WebUI.click(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/span_(1) Record Found'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login'))
-
-WebUI.click(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard'))
-
-WebUI.verifyElementText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
+WebUI.verifyElementText(findTestObject('Object Repository/PIM/Page_OrangeHRM/Page_OrangeHRM/Page_OrangeHRM/span_(1) Record Found'), 
+    '(1) Record Found')
 
 WebUI.delay(2)
 

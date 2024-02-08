@@ -17,33 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(url)
-
-WebUI.maximizeWindow()
-
-String url = WebUI.getUrl()
-
-System.out.println('The url is : ' + url)
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username', [('variable') : username]), username)
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password', [('variable') : password]), password)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login'))
-
-WebUI.click(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard'))
-
-WebUI.verifyElementText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
-
-WebUI.delay(2)
-
-WebUI.closeBrowser()
-

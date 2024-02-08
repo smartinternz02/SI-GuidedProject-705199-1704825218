@@ -17,31 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login'), [('url') : 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+        , ('username') : 'Admin\t', ('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(url)
+WebUI.click(findTestObject('Object Repository/AdminJob/Page_OrangeHRM/a_Admin'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/AdminJob/Page_OrangeHRM/i_oxd-icon bi-chevron-down'))
 
-String url = WebUI.getUrl()
+WebUI.click(findTestObject('Object Repository/AdminJob/Page_OrangeHRM/a_Job Titles'))
 
-System.out.println('The url is : ' + url)
+WebUI.click(findTestObject('Object Repository/AdminJob/Page_OrangeHRM/i_oxd-icon bi-plus oxd-button-icon'))
 
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username', [('variable') : username]), username)
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password', [('variable') : password]), password)
+WebUI.setText(findTestObject('Object Repository/AdminJob/Page_OrangeHRM/input_oxd-input oxd-input--focus'), 'Software Engineer Senior')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login'))
+WebUI.setText(findTestObject('Object Repository/AdminJob/Page_OrangeHRM/textarea_oxd-textarea oxd-textarea--focus o_a93838'), 
+    'Senior Software Engineer or Director of Engineering')
 
-WebUI.click(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard'))
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
+WebUI.setText(findTestObject('Object Repository/AdminJob/Page_OrangeHRM/textarea_oxd-textarea oxd-textarea--focus o_a93838_1'), 
+    'Candidate has to be updated within time')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/AdminJob/Page_OrangeHRM/button_Save'))
 
 WebUI.delay(2)
 

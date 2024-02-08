@@ -25,7 +25,11 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_username', [('variable') : username]), username)
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('TC_OrangeHRM_Login_001/Page_OrangeHRM/input_password', [('variable') : password]), password)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/TC_OrangeHRM_Login_001/Page_OrangeHRM/button_Login'))
 
