@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9249d228-d8f8-408b-a360-2fd4d13122aa</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>1915e4fd-eacc-4c50-be0d-5d61709c2a07</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa9fceba-b134-40ab-b2e5-c96d5fb7b7f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>1915e4fd-eacc-4c50-be0d-5d61709c2a07</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>0bab89b0-95de-4b4c-842a-39e31c9ef905</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>1915e4fd-eacc-4c50-be0d-5d61709c2a07</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>81e2935d-c8f8-4e2c-a916-5a58b33c5f79</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</defaultValue>
+      <description></description>
+      <id>aa9fceba-b134-40ab-b2e5-c96d5fb7b7f2</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin\t'</defaultValue>
+      <description></description>
+      <id>0bab89b0-95de-4b4c-842a-39e31c9ef905</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>81e2935d-c8f8-4e2c-a916-5a58b33c5f79</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
